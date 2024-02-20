@@ -24,10 +24,10 @@ const process = (command, params, options) =>
 
 // 远程模板列表
 const web = {
-    vue: "https://github.com/jzxznb/monorepo-cli.git#vue",
+    vue: "https://github.com/jzxznb/apps-cli.git#vue",
 };
 const server = {
-    koa2: "https://github.com/jzxznb/monorepo-cli.git#koa2",
+    koa2: "https://github.com/jzxznb/apps-cli.git#koa2",
 };
 export default async () => {
     const downSpinner = ora("正在下载模板...");
@@ -56,7 +56,7 @@ export default async () => {
         downSpinner.succeed(chalk.green("模板下载成功！"));
         console.log(
             "\r\n" +
-                figlet.textSync("monorepo-cli", {
+                figlet.textSync("apps-cli", {
                     font: "3D-ASCII",
                     horizontalLayout: "default",
                     verticalLayout: "default",

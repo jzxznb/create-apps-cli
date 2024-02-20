@@ -1,9 +1,9 @@
 {
-    "name": "create-monorepo-cli",
-    "version": "1.0.2",
+    "name": "create-apps-cli",
+    "version": "1.0.0",
     "description": "app base on 'vue-monorepo-web-end && koa2-server-end'",
     "bin": {
-        "monorepo": "./bin/monorepo-cli.js"
+        "apps": "./bin/apps-cli.js"
     },
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
