@@ -1,3 +1,7 @@
-npm install -g monorepo-pnpm-cli
+```bash
+npm install -g create-apps-cli 
+```
 
-monorepo init
+```bash
+apps init
+```
